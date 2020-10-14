@@ -34,3 +34,5 @@ function cadastrarDespesa() {
 function gravar(d) {
     localStorage.setItem('despesa', JSON.stringify(d));
 } 
+
+//Objetos literais vs notação JSON
