@@ -30,3 +30,5 @@ function cadastrarDespesa() {
 
     console.log(despesa);
 }
+
+//Escolha do web storage
