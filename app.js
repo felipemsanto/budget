@@ -28,7 +28,9 @@ function cadastrarDespesa() {
         valor.value
     );
 
-    console.log(despesa);
+    gravar(despesa);
 }
 
-//Escolha do web storage
+function gravar(d) {
+    localStorage.setItem('despesa', JSON.stringify(d));
+} 
