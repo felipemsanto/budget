@@ -74,3 +74,4 @@ function cadastrarDespesa() {
 	}	
 }
 
+ //criação de dois modais para alertar sucesso na inserção de daos ou erro na nçao inserção de dados
