@@ -65,6 +65,8 @@ class Bd {
 
 		return despesas
 	}
+
+	
 }
 
 let bd = new Bd()
@@ -100,7 +102,13 @@ function cadastrarDespesa() {
 
 		//dialog de sucesso
 		$('#modalRegistraDespesa').modal('show') 
-		
+
+		ano.value = '' 
+		mes.value = ''
+		dia.value = ''
+		tipo.value = ''
+		descricao.value = ''
+		valor.value = ''
 
 	} else {
 		
@@ -163,3 +171,4 @@ function carregaListaDespesas() {
 	})
 
  }
+
