@@ -191,3 +191,5 @@ function carregaListaDespesas() {
 
 	
  }
+
+ //Array filter step 285
